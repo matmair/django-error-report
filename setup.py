@@ -1,7 +1,8 @@
-from os import path
-from setuptools import setup, find_packages
+"""Setup for django-error-report-2 package."""
 from codecs import open
+from os import path
 
+from setuptools import find_packages, setup
 
 here = path.abspath(path.dirname(__file__))
 
@@ -37,5 +38,5 @@ setup(
     install_requires=[
         'Django>=1.7'
     ],
-    version='0.4.1',
+    version='0.4.2',
 )
